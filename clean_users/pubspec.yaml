@@ -1,0 +1,23 @@
+name: clean_users
+description: A small Flutter demo showing clean architecture, Riverpod state management, a REST call, and unit + widget tests.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.5.1
+  http: ^1.2.0
+  equatable: ^2.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mocktail: ^1.0.3
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
